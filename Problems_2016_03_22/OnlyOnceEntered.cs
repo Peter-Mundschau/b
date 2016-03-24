@@ -20,8 +20,6 @@ namespace Problems_2016_03_22
             while (running)
             {
 
-
-
                 for (int newWord = 0; newWord < wordsList.Count; newWord++)
                 {
                     Console.WriteLine("Choose your words carefully.\nGive me a new word.(or q to quit)\n>>");
@@ -54,13 +52,6 @@ namespace Problems_2016_03_22
 
 
         }
-
-
-
-
-
-
-
 
 
     }

@@ -9,13 +9,18 @@ namespace Problems_2016_03_22
     class Program
     {
         static void Main(string[] args)
-        {
-           // OnlyOnceEntered startGame = new OnlyOnceEntered();
-           // startGame.PutitontheList();
+        {   // Working
+            // OnlyOnceEntered startGame = new OnlyOnceEntered();
+            // startGame.PutitontheList();
 
+
+            /*  Not Working
             EnterOnce enterYourWords = new EnterOnce();
             enterYourWords.PutitontheList();
+            */
 
+            ShapMaker makeShape = new ShapMaker();
+            makeShape.MakeShape();
         }
     }
 }

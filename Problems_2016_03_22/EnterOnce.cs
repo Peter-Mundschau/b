@@ -15,7 +15,7 @@ namespace Problems_2016_03_22
            
         {   
             Console.WriteLine("Choose your words carefully.\nGive me a new word.(or q to quit)>\n");
-            string usersInput = Console.ReadLine();
+             userInput = Console.ReadLine();
             
             
 
@@ -43,7 +43,7 @@ namespace Problems_2016_03_22
                     UsersInput();
                     
                 }
-                else
+                else 
                 {
                     wordsList.Add(userInput);
                     UsersInput();
@@ -51,6 +51,11 @@ namespace Problems_2016_03_22
                 
             }
         }
+
+        
+        
+
+            
        
         
     }
