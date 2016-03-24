@@ -10,8 +10,8 @@ namespace Problems_2016_03_22
     {
         static void Main(string[] args)
         {   // Working
-            // OnlyOnceEntered startGame = new OnlyOnceEntered();
-            // startGame.PutitontheList();
+             OnlyOnceEntered startGame = new OnlyOnceEntered();
+             startGame.PutitontheList();
 
 
             /*  Not Working
